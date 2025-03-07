@@ -1,0 +1,91 @@
+/* project 1 line 1 to 70
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue ;
+}
+
+#card{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px grey;
+
+}
+
+#card h1{
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+
+#card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+#card h5{
+    padding: 23px;
+    font-size: 23px;
+    color: rgb(183, 21, 21);
+}
+
+#card button{
+    background-color: cadetblue;
+    font-weight: 600;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#card button:hover{
+    background-color: rgb(36, 59, 60);
+    box-shadow:  5px 5px 10px rgb(107, 106, 106);   
+}
+/* #card #remove{
+    background-color: #dadada;
+    color: #111;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.bodycontainer{
+    max-width: 80vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+
+}
+.headercontainer{
+    margin-bottom:2.8rem ;
+}
+.headertitle{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700 ;
+    text-align: center;
+}
+.headerdesc{
+    max-width: 768px;
+    text-align: center;
+    color: rgb(89, 82, 82);
+    margin: 0 auto;
+}
+
+
+
+.maincontainer{
+    display: grid;
+    gap: 1.5rem;
+    /* grid-template-columns: repeat(1, 1fr); */
+    justify-content: center;
+    grid-template-columns: repeat( auto-fit, minmax( 300px, 400px));
+}
+
+/* @media (min-width:650px){
+    .maincontainer{
+    grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (min-width:1080px){
+    .maincontainer{
+    grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+@media (min-width:1340px){
+    .maincontainer{
+    grid-template-columns: repeat(4, 1fr);
+
+    }
+} */
+
+
+.cardcontainer{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(70, 67, 67);
+    border-radius: 8px;
+}
+
+
+.cardimgcontainer{
+    position: relative;
+    overflow: hidden;
+    height: 11rem;
+
+}
+@media (min-width:768px) {
+    .cardimgcontainer{
+      
+        height: 14rem;
+    
+    }
+}
+
+
+
+.cardimg{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.cardtitlecontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.cardcontainer:hover .cardimg{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+
+.cardtitle{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(20, 17, 17);
+}
+
+.cardtitleanchor:hover .cardtitle{
+    color: rgb(28, 28, 151);
+}
+
+.carddesc{
+    color: rgb(85, 79, 79);
+    font-size: 1rem;
+}
+
+
+.cardfootercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1.5rem;
+
+}
+
+.authorcontainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.authoravatar{
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(64, 59, 59);
+    border-radius: 50%;
+    background-color: rgb(175, 175, 175);
+}
+
+.authorinfocontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.authorname{
+    color: rgb(56, 56, 112);
+
+}
+.authordate{
+    color: rgb(84, 82, 82);
+}
+
+.cardtagcontainer{
+    font-size: 0.9rem;
+    border: 1px solid rgb(74, 73, 73);
+    border-radius: 2px;
+    line-height: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    color: rgb(92, 90, 90);
+}

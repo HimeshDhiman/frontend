@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: rgb(10,10,37);
+background: linear-gradient(90deg, rgb(6, 6, 23) 0%, rgb(16, 16, 62) 50%, rgba(9,9,50,1) 100%, rgb(3, 4, 16) 100%);
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+
+nav{
+    background: rgb(10,10,37);
+background: linear-gradient(90deg, rgb(20, 20, 72) 0%, rgb(36, 36, 135) 50%, rgb(19, 19, 99) 100%, rgb(16, 24, 87) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+nav ul li a:hover{
+    color: grey;
+    font-size: 1.05rem;
+    }
+
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    
+
+}
+
+.first > div{
+    width: 40%;
+}
+
+
+.leftsec{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 90px;
+}
+
+.rightsec{
+    margin-left: 50px;
+}
+
+.rightsec img{
+
+    width: 60%;
+    margin: 40px 0px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 25px grey;
+
+}
+
+
+.purple{
+    color: blueviolet;
+}
+
+#element{
+    color: blueviolet;
+}
+
+
+
+.secondsec{
+    
+    max-width: 80vw;
+    margin: auto;
+    /* height: 80vh; */
+    /* border-top: 2px solid grey; */
+}
+
+.secondsec hr{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.grey{
+     margin-top: 50px;
+    color: grey;
+    font-size: small;
+}
+
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.vertical{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 100px;
+
+}
+
+.imgtop{
+    width: 40px;
+    position: relative;
+    top: -32px;
+    left: -26px;
+}
+
+#css{
+    width: 30px;
+}
+
+.verticaltitle{
+    position: relative;
+    width: 150px;
+    top: 50px;
+    font-size: 14px;
+
+}
+
+.verticaldesc{
+    position: relative;
+    top: 70px;
+    width: 150px;
+    color: grey;
+    font-size: 10px;
+}
+
+
+.footer{
+    background-color: rgb(58, 25, 88);
+    display: flex;
+    margin: 300px 0px;
+    height: 233px;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+
+.footer ul{
+    list-style: none;
+    font-size: 15px;
+}
+
+.footer > div{
+    width: 150px;
+}
+
+.ffooter{
+    padding: 10px 123px;
+}
+
+.copyright{
+    border-top: 1px solid grey;
+    /* max-width: 80%; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    color: rgb(212, 207, 207);
+
+
+}

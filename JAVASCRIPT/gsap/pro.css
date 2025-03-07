@@ -1,0 +1,229 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  /* #main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #cursor{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+  }
+  #img{
+    height: 30vw;
+    width: 60vw;
+    background-color: red;
+    position: relative;
+    
+}
+#img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pro 2  */
+
+
+
+/* body{
+    overflow-x: hidden;
+}
+#main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/08/27/09/06/bike-909690_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+     
+}
+#nav h2{
+    font-size: 30px;
+}
+
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.222);
+    top: 0;
+    right: -40%;
+    /* filter: blur(30px); 
+    backdrop-filter: blur(20px);
+    padding: 150px 60px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pro3 */
+
+
+
+/* *{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pro4 */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #111;
+}
+
+#page1 , #page2,#page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw 0;
+}
+
+#move{
+    background-color: #D8FF04;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform:translateX(-100%),
+
+}
+.marque h1{
+    font-size: 3.8vw;
+}
+.marque img{
+    height: 4vw;
+}
